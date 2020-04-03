@@ -1,0 +1,20 @@
+site_name: FTBApp FAQ
+theme: readthedocs
+
+nav:
+  - Home: 'index.md'
+  - Modpacks:
+      - Install: 'modpacks/install.md'
+      - Versons: 'modpacks/versions.md'
+      - Settings: 'modpacks/settings.md'
+  - Settings: 'settings/settings.md'
+  - Servers:
+      - Install: 'servers/install.md'
+      - Update: 'servers/update.md'
+
+markdown_extensions:
+  - admonition
+  - smarty
+  - sane_lists
+  # - toc:
+  #     permalink: ' '
